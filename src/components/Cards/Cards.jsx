@@ -1,8 +1,26 @@
 import React from "react";
 import "./Cards.css";
+import { CardsData } from "../../Data/Data.js";
 
 const Cards = () => {
-  return <div>Cards</div>;
+  return (
+    <div className="Cards">
+      {CardsData.map((Card, id) => {
+        return (
+          <div className="parentContainer">
+            <Card
+              title={card.title}
+              color={card.color}
+              barValue={card.barValue}
+              value={card.value}
+              png={card.png}
+              series={card.series}
+            />
+          </div>
+        );
+      })}
+    </div>
+  );
 };
 
 export default Cards;
