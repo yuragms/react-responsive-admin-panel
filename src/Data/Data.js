@@ -5,6 +5,8 @@ import {
   UilUsersAlt,
   UilPackage,
   UilChart,
+  UilUsdSquare,
+  UilMoneyWithdrawal,
 } from "@iconscout/react-unicons";
 
 // Sidebar data
