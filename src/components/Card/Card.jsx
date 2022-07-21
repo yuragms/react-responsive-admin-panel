@@ -1,4 +1,6 @@
 import { AnimateSharedLayout } from "framer-motion";
+import { CircularProgressbar } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 import React, { useState } from "react";
 
 function Card(props) {
@@ -15,8 +17,19 @@ function Card(props) {
 function CompactCard({ param }) {
   const Png = param.png;
   return (
-    <div className="CompactCard">
-      <div className="radialBar">Chart</div>
+    <div
+      className="CompactCard"
+      style={{
+        background: param.color.background,
+        boxShadow: param.color.boxShadow,
+      }}
+    >
+      <div className="radialBar">
+        <CircularProgressbar
+          value={param.barValue}
+          text={`${param.barValue}%`}
+        />
+      </div>
       <div className="detail">
         <Png />
         <span>${param.value}</span>
