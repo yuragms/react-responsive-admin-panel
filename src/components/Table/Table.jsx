@@ -87,7 +87,9 @@ export default function BasicTable() {
                     {row.status}
                   </span>
                 </TableCell>
-                <TableCell align="left">Detail</TableCell>
+                <TableCell align="left" className="Details">
+                  Detail
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>
