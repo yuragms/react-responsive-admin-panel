@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-responsive-admin-panel/static/css/main.a02d5e33.css",
+    "main.js": "/react-responsive-admin-panel/static/js/main.87f271ad.js",
+    "static/media/img1.png": "/react-responsive-admin-panel/static/media/img1.a0fca9c51749c1ee3db5.png",
+    "static/media/img2.png": "/react-responsive-admin-panel/static/media/img2.f5f922c9b93eaf2c4065.png",
+    "static/media/img3.png": "/react-responsive-admin-panel/static/media/img3.6b1484548ee065fd59b5.png",
+    "index.html": "/react-responsive-admin-panel/index.html",
+    "main.a02d5e33.css.map": "/react-responsive-admin-panel/static/css/main.a02d5e33.css.map",
+    "main.87f271ad.js.map": "/react-responsive-admin-panel/static/js/main.87f271ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a02d5e33.css",
+    "static/js/main.87f271ad.js"
+  ]
+}
